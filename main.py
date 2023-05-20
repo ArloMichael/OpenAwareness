@@ -53,4 +53,4 @@ def reset_model():
     except Exception as e:
         return {"code":"error", "response":str(e), "time":round(time.time()-start,2)}
 
-app.run(host='0.0.0.0', port=81)
+app.run(host='0.0.0.0', port=5000)
